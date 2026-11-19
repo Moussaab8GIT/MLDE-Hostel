@@ -220,4 +220,4 @@ La configuration recommandée pour cette charge locale est **0,5 CPU / 384 Mio**
 
 ## Limites connues
 
-Le rejeu historique ne prouve pas le comportement sur des réservations futures. Les feedbacks peuvent être sélectifs et aucun réentraînement n'est déclenché automatiquement. Un changement d'alias MLflow demande un redémarrage de l'API. Les notifications dépendent du poste, de Docker et d'Internet. L'installation dans un environnement Python neuf, le verrouillage complet des dépendances et l'exécution de la nouvelle ingestion sur H1 restent à vérifier. La présentation existante doit être mise à jour avec les résultats de charge et les alertes.
+Le rejeu historique ne prouve pas le comportement sur des réservations futures. Les feedbacks peuvent être sélectifs. Un changement d'alias MLflow demande un redémarrage de l'API. Les notifications dépendent du poste, de Docker et d'Internet. L'installation dans un environnement Python neuf, le verrouillage complet des dépendances et l'exécution de la nouvelle ingestion sur H1 restent à vérifier.

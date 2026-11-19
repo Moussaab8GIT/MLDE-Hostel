@@ -47,5 +47,4 @@ Les pourcentages CPU proviennent de Docker et sont relatifs à un cœur, pas à 
 - Les données sont historiques et rejouées ; il n'existe pas de flux hôtelier en direct. Le nouveau découpage par date peut différer des fichiers préparés antérieurs. Il faut vérifier l'ingestion sur H1 et conserver les empreintes et métriques de chaque exécution.
 - Les feedbacks peuvent être sélectifs. Il n'y a pas de réentraînement automatique déclenché par les retours ou une dérive.
 - L'API doit redémarrer après un changement d'alias MLflow. La disponibilité pendant le redémarrage, l'authentification et la promotion concurrente ne sont pas couvertes.
-- Les notifications Telegram supposent que le poste, Docker et la connexion Internet fonctionnent. Alertmanager est une instance locale unique. Les rapports persistants ne sont pas purgés automatiquement.
-- Une installation Python entièrement neuve et un verrouillage exhaustif des dépendances restent à vérifier avant la remise finale.
+- Les notifications Telegram supposent que le poste, Docker et la connexion Internet fonctionnent. Alertmanager est une instance locale unique.

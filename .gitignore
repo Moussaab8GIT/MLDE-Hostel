@@ -10,7 +10,7 @@ secrets/
 *.db
 *.db-*
 data/
-reports/*
-*.pptx
+docs/
+reports/
 !reports/.gitkeep
-!reports/evaluation/
+*.pptx
