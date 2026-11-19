@@ -1,0 +1,36 @@
+{
+  "baseline_tree": {
+    "accuracy": 0.7758236314094624,
+    "balanced_accuracy": 0.8033205932576754,
+    "precision_canceled": 0.6290322580645161,
+    "recall_canceled": 0.8981158408932309,
+    "f1_canceled": 0.7398677780971543,
+    "confusion_matrix_labels_0_1": [
+      [
+        3690,
+        1518
+      ],
+      [
+        292,
+        2574
+      ]
+    ]
+  },
+  "tuned_tree": {
+    "accuracy": 0.7591032945256379,
+    "balanced_accuracy": 0.7066503784504595,
+    "precision_canceled": 0.7200191113234592,
+    "recall_canceled": 0.5258199581297976,
+    "f1_canceled": 0.6077838273845534,
+    "confusion_matrix_labels_0_1": [
+      [
+        4622,
+        586
+      ],
+      [
+        1359,
+        1507
+      ]
+    ]
+  }
+}

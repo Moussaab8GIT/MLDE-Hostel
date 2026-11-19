@@ -1,0 +1,5 @@
+-r runtime.txt
+locust==2.47.0
+httpx==0.28.1
+prefect==3.9.3
+pytest>=8,<10

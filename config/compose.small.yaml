@@ -1,0 +1,4 @@
+services:
+  cancellation-api:
+    cpus: 0.5
+    mem_limit: 384m

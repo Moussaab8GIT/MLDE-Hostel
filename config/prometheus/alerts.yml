@@ -1,0 +1,17 @@
+groups:
+  - name: hotel-operations
+    rules:
+      - alert: HotelApiUnavailable
+        expr: up{job="cancellation-api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "API metrics have been unreachable for one minute"
+      - alert: HotelTrainingFailed
+        expr: training_last_success == 0
+        for: 15s
+        labels:
+          severity: warning
+        annotations:
+          summary: "Latest recorded training flow failed; inspect Prefect and /ops/alerts"

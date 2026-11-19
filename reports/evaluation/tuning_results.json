@@ -1,0 +1,160 @@
+{
+  "validation_cutoff": "2016-12-02",
+  "fit_rows": 25543,
+  "validation_rows": 6443,
+  "minimum_recall_preference": 0.85,
+  "selected_parameters": {
+    "max_depth": 5,
+    "min_samples_leaf": 50,
+    "class_weight": null,
+    "precision_canceled": 0.6761229314420804,
+    "recall_canceled": 0.5693430656934306,
+    "f1_canceled": 0.6181556195965417
+  },
+  "all_candidates": [
+    {
+      "max_depth": 5,
+      "min_samples_leaf": 10,
+      "class_weight": null,
+      "precision_canceled": 0.672926447574335,
+      "recall_canceled": 0.570670205706702,
+      "f1_canceled": 0.6175942549371634
+    },
+    {
+      "max_depth": 5,
+      "min_samples_leaf": 10,
+      "class_weight": "balanced",
+      "precision_canceled": 0.5374493927125507,
+      "recall_canceled": 0.7047113470471135,
+      "f1_canceled": 0.6098191214470284
+    },
+    {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "class_weight": null,
+      "precision_canceled": 0.672926447574335,
+      "recall_canceled": 0.570670205706702,
+      "f1_canceled": 0.6175942549371634
+    },
+    {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "class_weight": "balanced",
+      "precision_canceled": 0.5368207211782631,
+      "recall_canceled": 0.7013934970139349,
+      "f1_canceled": 0.6081703107019563
+    },
+    {
+      "max_depth": 5,
+      "min_samples_leaf": 50,
+      "class_weight": null,
+      "precision_canceled": 0.6761229314420804,
+      "recall_canceled": 0.5693430656934306,
+      "f1_canceled": 0.6181556195965417
+    },
+    {
+      "max_depth": 5,
+      "min_samples_leaf": 50,
+      "class_weight": "balanced",
+      "precision_canceled": 0.5368207211782631,
+      "recall_canceled": 0.7013934970139349,
+      "f1_canceled": 0.6081703107019563
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 10,
+      "class_weight": null,
+      "precision_canceled": 0.7297921478060047,
+      "recall_canceled": 0.41937624419376246,
+      "f1_canceled": 0.5326590813316477
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 10,
+      "class_weight": "balanced",
+      "precision_canceled": 0.5932678821879382,
+      "recall_canceled": 0.5613802256138023,
+      "f1_canceled": 0.5768837367882714
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 20,
+      "class_weight": null,
+      "precision_canceled": 0.7294797687861272,
+      "recall_canceled": 0.41871267418712677,
+      "f1_canceled": 0.5320404721753794
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 20,
+      "class_weight": "balanced",
+      "precision_canceled": 0.5889741800418702,
+      "recall_canceled": 0.5600530856005309,
+      "f1_canceled": 0.5741496598639456
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 50,
+      "class_weight": null,
+      "precision_canceled": 0.7330210772833724,
+      "recall_canceled": 0.41539482415394824,
+      "f1_canceled": 0.530283778060144
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 50,
+      "class_weight": "balanced",
+      "precision_canceled": 0.5596091205211726,
+      "recall_canceled": 0.5700066357000664,
+      "f1_canceled": 0.5647600262984879
+    },
+    {
+      "max_depth": 12,
+      "min_samples_leaf": 10,
+      "class_weight": null,
+      "precision_canceled": 0.7230255839822024,
+      "recall_canceled": 0.43132050431320507,
+      "f1_canceled": 0.5403158769742311
+    },
+    {
+      "max_depth": 12,
+      "min_samples_leaf": 10,
+      "class_weight": "balanced",
+      "precision_canceled": 0.5570839064649243,
+      "recall_canceled": 0.5374917053749171,
+      "f1_canceled": 0.547112462006079
+    },
+    {
+      "max_depth": 12,
+      "min_samples_leaf": 20,
+      "class_weight": null,
+      "precision_canceled": 0.7159956474428727,
+      "recall_canceled": 0.4366290643662906,
+      "f1_canceled": 0.5424567188788129
+    },
+    {
+      "max_depth": 12,
+      "min_samples_leaf": 20,
+      "class_weight": "balanced",
+      "precision_canceled": 0.5765702187720536,
+      "recall_canceled": 0.542136695421367,
+      "f1_canceled": 0.5588235294117647
+    },
+    {
+      "max_depth": 12,
+      "min_samples_leaf": 50,
+      "class_weight": null,
+      "precision_canceled": 0.7189473684210527,
+      "recall_canceled": 0.45321831453218314,
+      "f1_canceled": 0.555962555962556
+    },
+    {
+      "max_depth": 12,
+      "min_samples_leaf": 50,
+      "class_weight": "balanced",
+      "precision_canceled": 0.5997034840622684,
+      "recall_canceled": 0.5368281353682813,
+      "f1_canceled": 0.5665266106442577
+    }
+  ]
+}

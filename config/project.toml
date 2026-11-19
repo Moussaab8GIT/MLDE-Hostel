@@ -1,0 +1,16 @@
+[model]
+name = "hotel-cancellation-model"
+alias = "production"
+experiment = "hotel-cancellation-prediction"
+minimum_recall = 0.898
+minimum_f1 = 0.740
+max_depth = 8
+min_samples_leaf = 20
+random_state = 42
+
+[monitoring]
+minimum_feedback = 30
+feedback_window_days = 30
+
+[data]
+test_fraction = 0.20

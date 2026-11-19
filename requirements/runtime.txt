@@ -1,0 +1,11 @@
+pandas==2.2.3
+numpy==2.2.6
+scikit-learn==1.6.1
+joblib==1.5.0
+mlflow==3.18.0
+fastapi==0.150.0
+starlette==1.10.0
+pydantic==2.14.1
+uvicorn[standard]==0.34.0
+prometheus-client==0.26.0
+prometheus-fastapi-instrumentator==8.1.0
